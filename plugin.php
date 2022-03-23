@@ -60,9 +60,9 @@ function ozh_yourls_linkmr_form() {
         </p>
 
         <p><label for="radio_clicks">
-        <input type="radio" name="what" id="radio_clicks" value="clicks" value="0" />All links with the specified amount of clicks (exact number)
+        <input type="radio" name="what" id="radio_clicks" value="clicks"/>All links with the specified amount of clicks (exact number)
         </label>
-        <input type="number" name="clicks" />
+        <input type="number" name="clicks" value="0" />
         </p>
 
         <p><label for="radio_all">
